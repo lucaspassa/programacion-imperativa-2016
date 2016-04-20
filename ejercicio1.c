@@ -1,5 +1,19 @@
-// Corta con el valor cantidad 0
+/* 
+Crear un programa C que lea cantidades y precios y al final indique el total de la factura.
 
+Primero se pregunta:
+Introduzca la cantidad vendida
+
+tras lo cual el usuario introducirá un número entero positivo.
+
+Después se pregunta:
+
+Introduzca el precio
+
+que será un número decimal positivo.
+
+La lectura termina cuando en la cantidad se introduzca un cero. Si es así se escribirá el total.
+*/
 #include <stdio.h>
 
 
