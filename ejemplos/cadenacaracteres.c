@@ -3,10 +3,12 @@
 
 int main () {
 
-   char str1[12] = "Hello";
+   char str1[] = "Hello";
    char str2[12] = "World";
    char str3[12];
-   int  len ;
+   int len;
+   
+   //str2[12] = "Holaa ";
 
    /* copy str1 into str3 */
    strcpy(str3, str1);
